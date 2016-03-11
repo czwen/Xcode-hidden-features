@@ -23,15 +23,15 @@ defaults write com.apple.dt.Xcode AppleEnableSwipeNavigateWithScrolls -bool NO
 
 <h3 id="3">Reduce XCode build times</h3>
 source [https://coderwall.com/p/1p4mha/reduce-xcode-build-times](https://coderwall.com/p/1p4mha/reduce-xcode-build-times)
-
+###Try remove `~/Library/Developer/Xcode/DerivedData/`
 ```bash
 $ rm -rf ~/Library/Developer/Xcode/DerivedData/*
 ```
-Creating a 2 GB volume RAM disk via the Terminal:
+###Creating a 2 GB volume RAM disk via the Terminal:
 ```bash
 $ hdid -nomount ram://4194304
 ```
-hdid outputs the device name of the RAM disk. Change the number instead of the 'N' for newfs_hfs and diskutil commands.
+###hdid outputs the device name of the RAM disk. Change the number instead of the 'N' for newfs_hfs and diskutil commands.
 ```bash
 $ newfs_hfs -v DerivedData /dev/rdiskN
 $ diskutil mount -mountPoint ~/Library/Developer/Xcode/DerivedData /dev/diskN
