@@ -2,7 +2,7 @@
 
 *   [Show build operation duration on toolbar](#1)
 *   [Disable swip gestures Xcode only](#2)
-*   [Reduce XCode build times](#3)
+*   [Reduce Xcode build times](#3)
 *   [Validating Your Version of Xcode](#4)
 
 ******
@@ -22,7 +22,7 @@ for trackpad
 defaults write com.apple.dt.Xcode AppleEnableSwipeNavigateWithScrolls -bool NO
 ```
 
-<h3 id="3">Reduce XCode build times</h3>
+<h3 id="3">Reduce Xcode build times</h3>
 source [https://coderwall.com/p/1p4mha/reduce-xcode-build-times](https://coderwall.com/p/1p4mha/reduce-xcode-build-times)
 *   Try remove `~/Library/Developer/Xcode/DerivedData/`
 ```bash
