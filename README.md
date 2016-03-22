@@ -45,7 +45,6 @@ spctl --assess --verbose /Applications/Xcode.app
 ```
 and the result
 ```
-spctl --assess --verbose /Applications/Xcode.app
 /Applications/Xcode.app: accepted
 source=Apple System
 ```
