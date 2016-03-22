@@ -3,7 +3,7 @@
 *   [Show build operation duration on toolbar](#1)
 *   [Disable swip gestures Xcode only](#2)
 *   [Reduce XCode build times](#3)
-
+*   [Reduce XCode build times](#4)
 ******
 
 <h3 id="1">Show build operation duration on toolbar</h3>
@@ -35,4 +35,16 @@ $ hdid -nomount ram://4194304
 ```bash
 $ newfs_hfs -v DerivedData /dev/rdiskN
 $ diskutil mount -mountPoint ~/Library/Developer/Xcode/DerivedData /dev/diskN
+```
+
+<h3 id="4">Reduce XCode build times</h3>
+source [Validating Your Version of Xcode](https://developer.apple.com/news/?id=09222015a)
+```bash
+spctl --assess --verbose /Applications/Xcode.app
+```
+and the result
+```
+spctl --assess --verbose /Applications/Xcode.app
+/Applications/Xcode.app: accepted
+source=Apple System
 ```
