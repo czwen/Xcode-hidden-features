@@ -38,7 +38,7 @@ $ newfs_hfs -v DerivedData /dev/rdiskN
 $ diskutil mount -mountPoint ~/Library/Developer/Xcode/DerivedData /dev/diskN
 ```
 
-<h3 id="4">Reduce XCode build times</h3>
+<h3 id="4">Validating Your Version of Xcode</h3>
 source [Validating Your Version of Xcode](https://developer.apple.com/news/?id=09222015a)
 ```bash
 $ spctl --assess --verbose /Applications/Xcode.app
