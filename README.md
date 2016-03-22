@@ -3,7 +3,8 @@
 *   [Show build operation duration on toolbar](#1)
 *   [Disable swip gestures Xcode only](#2)
 *   [Reduce XCode build times](#3)
-*   [Reduce XCode build times](#4)
+*   [Validating Your Version of Xcode](#4)
+
 ******
 
 <h3 id="1">Show build operation duration on toolbar</h3>
