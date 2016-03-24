@@ -5,6 +5,7 @@
 *   [Reduce Xcode build times](#3)
 *   [Validating Your Version of Xcode](#4)
 *   [Check Xcode UUID](#5)
+
 ******
 
 <h3 id="1">Show build operation duration on toolbar</h3>
