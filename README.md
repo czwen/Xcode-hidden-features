@@ -4,7 +4,7 @@
 *   [Disable swip gestures Xcode only](#2)
 *   [Reduce Xcode build times](#3)
 *   [Validating Your Version of Xcode](#4)
-
+*   [Check Xcode UUID](#5)
 ******
 
 <h3 id="1">Show build operation duration on toolbar</h3>
@@ -47,4 +47,9 @@ and the result
 ```
 /Applications/Xcode.app: accepted
 source=Apple System
+```
+
+<h3 id="5">Check Xcode UUID</h3>
+```
+defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID
 ```
