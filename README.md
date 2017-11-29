@@ -5,6 +5,7 @@
 *   [Reduce Xcode build times](#3)
 *   [Validating Your Version of Xcode](#4)
 *   [Check Xcode UUID](#5)
+*   [Clean Up Xcode Simulator](#6)
 
 ******
 
@@ -68,4 +69,15 @@ and the result
 
 ```
 defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID
+```
+
+
+<h3 id="6">Clean Up Xcode Simulator</h3>
+
+```
+xcrun simctl erase all
+```
+
+```
+xcrun simctl delete unavailable
 ```
